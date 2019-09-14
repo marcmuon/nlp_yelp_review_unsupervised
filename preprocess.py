@@ -7,7 +7,20 @@ def restaurant_filter(biz_df):
     return biz_df[mask]
 
 def merge_df(df1, df2, join_key):
+    """Merge Two DFs on same key, like SQL inner join"""
     return df1.merge(df2, left_on=join_key, right_on=join_key, how='inner')
+
+def binarize_stars():
+    pass
+
+def train_test_df():
+    pass
+
+def true_counts():
+    pass
+
+def quantile_filer():
+    pass
 
 if __name__ == '__main__':
 
