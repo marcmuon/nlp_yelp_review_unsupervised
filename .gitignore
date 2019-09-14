@@ -1,2 +1,4 @@
 mongo-load/review_df.pkl
 notebooks/.ipynb_checkpoints/1-yelp_load_data_initial_eda-checkpoint.ipynb
+mongo-load/biz_df.pkl
+notebooks/.ipynb_checkpoints/2.0_optional_HDP_Model_to_find_number_of_topics_for_LDA-checkpoint.ipynb
