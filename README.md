@@ -6,6 +6,8 @@
 
 This experiment uses Yelp's publicly available restaurant review data (6,685,900 reviews across 192,609 businesses).
 
+I've written instructions for setting up your own DB and loading Yelp data below. However, the pre-processing output from ```preprocess.py``` was compact enough that I could include the ```train_df.pkl``` and ```test_df.pkl``` files in the ```/data``` directory. Thus you can skip the DB setup sections and just use those if desired.
+
 ### Download JSON and Setup Mongo
 1. Yelp data is in raw JSON here: https://www.yelp.com/dataset
 2. Install Mongo locally if needed via instructions here: https://docs.mongodb.com/manual/tutorial/
