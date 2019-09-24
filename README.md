@@ -1,12 +1,12 @@
 # LDA Topic Models as Supervised Classification Inputs
 
-*9/14/2019 - Over the next few weekends I'm re-writing the code shown in these notebooks into more flexible Python modules, and walking through the data load pre-processing in Mongo. If you've reached this Repo via my Medium article, then this code will become easier to use in a few weeks time! The notebooks gloss over some important details to fully follow along.*
 
 ## The Data
 
 This experiment uses Yelp's publicly available restaurant review data (6,685,900 reviews across 192,609 businesses).
 
-I've written instructions for setting up your own DB and loading Yelp data below. However, the pre-processing output from ```preprocess.py``` was compact enough that I could include the ```train_df.pkl``` and ```test_df.pkl``` files in the ```/data``` directory. Thus you can skip the DB setup sections and just use those if desired.
+I've written instructions for setting up your own DB and loading Yelp data below. However, the pre-processing output from ```preprocess.py``` was compact enough that I could include the ```train_df.pkl``` and ```test_df.pkl``` files in the ```/data``` directory. Thus you can skip the DB setup sections below and just use those if desired, then explore the LDA experiment using Notebooks #2 (train corpus) and #3 (test corpus).
+
 
 ### Download JSON and Setup Mongo
 1. Yelp data is in raw JSON here: https://www.yelp.com/dataset
