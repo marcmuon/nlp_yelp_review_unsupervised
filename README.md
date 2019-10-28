@@ -5,7 +5,7 @@
 
 This experiment uses Yelp's publicly available restaurant review data (6,685,900 reviews across 192,609 businesses).
 
-I've written instructions for setting up your own DB and loading Yelp data below. However, the pre-processing output from ```preprocess.py``` was compact enough that I could include the ```train_df.pkl``` and ```test_df.pkl``` files in the ```/data``` directory. Thus you can skip the DB setup sections below and just use those if desired, then explore the LDA experiment using Notebooks #2 (train corpus) and #3 (test corpus).
+I've written instructions for setting up your own DB and loading Yelp data below. However, the pre-processing output from ```preprocess.py``` was compact enough that I could include the ```rev_train.pkl``` and ```rev_test.pkl``` files in the ```/data``` directory. Thus you can skip the DB setup sections below and just use those if desired, then explore the LDA experiment using Notebooks #2 (train corpus) and #3 (test corpus).
 
 
 ### Download JSON and Setup Mongo
