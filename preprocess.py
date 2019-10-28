@@ -45,7 +45,7 @@ if __name__ == '__main__':
         biz_df = pickle.load(f)
     with open('mongo-load/review_df.pkl', 'rb') as f:
         review_df = pickle.load(f)
-    
+
     biz_df = restaurant_filter(biz_df)
     merged = merge_df(biz_df, review_df, join_key='business_id')
     biz_df, review_df = None, None  # RAM usage considerations
@@ -55,7 +55,7 @@ if __name__ == '__main__':
     merged = quantile_filter(merged)
     train_df, test_df = train_test_df(merged)
 
-    with open('data/train_df.pkl', 'wb') as f:
+    with open('data/train_rev.pkl', 'wb') as f:
         pickle.dump(train_df, f)
-    with open('data/test_df.pkl', 'wb') as f:
+    with open('data/test_rev.pkl', 'wb') as f:
         pickle.dump(test_df, f)
